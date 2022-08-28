@@ -54,7 +54,9 @@ File > Preference > User Snippets 메뉴 이동
 
 라우트 연결 방식 세 가지
 1. 무조건 들어가게 되는 페이지의 경우 - 상단에 import 하는 방식 사용
+	
 	상단 import Homeview from '../views/HomeView.vue'
+	
 	const routes = [
 	{
 	path: '/',
@@ -64,6 +66,7 @@ File > Preference > User Snippets 메뉴 이동
 	]
 
 2. 들어갈 가능성이 높거나, 사이즈가 크다. - webpackPrefetch: true
+	
 	const routes = [
 	{
 	path: '/',
@@ -72,7 +75,7 @@ File > Preference > User Snippets 메뉴 이동
 	해당 주석은 반복될 필요는 없다. (한 번만 존재하면 됨)	 
 	 // route level code-splitting
     	 // this generates a separate chunk (about.[hash].js) for this route
-             // which is lazy-loaded when the route is visited.
+         // which is lazy-loaded when the route is visited.
 
              component: () => 
 	    import(
@@ -82,6 +85,7 @@ File > Preference > User Snippets 메뉴 이동
 	]
 
 3. 들어갈 빈도가 많지 않거나 자바스크립트 파일 자체가 작다. - webpackPrefetch: true 가 없는 형태
+	
 	const routes = [
 	{
 	path: '/',
