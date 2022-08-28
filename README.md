@@ -55,50 +55,50 @@ File > Preference > User Snippets 메뉴 이동
 라우트 연결 방식 세 가지
 1. 무조건 들어가게 되는 페이지의 경우 - 상단에 import 하는 방식 사용
 	
-	상단 import Homeview from '../views/HomeView.vue'
+	상단 import Homeview from '../views/HomeView.vue' <br>
 	
-	const routes = [
-	{
-	path: '/',
-	name: 'home',
-	component: HomeView
-	}
+	const routes = [ <br>
+	{ <br>
+	path: '/', <br>
+	name: 'home', <br>
+	component: HomeView <br>
+	} <br>
 	]
 
 2. 들어갈 가능성이 높거나, 사이즈가 크다. - webpackPrefetch: true
 	
-	<div>
-	const routes = [
-	{
-	path: '/',
-	name: 'home',
+	
+	const routes = [ <br>
+	{ <br>
+	path: '/', <br>
+	name: 'home', <br>
 
-	해당 주석은 반복될 필요는 없다. (한 번만 존재하면 됨)	 
-	 // route level code-splitting
-    	 // this generates a separate chunk (about.[hash].js) for this route
-         // which is lazy-loaded when the route is visited.
-            component: () => 
-	    import(
- 		/* webpackChunkName: "home", webpackPrefetch:true */ '../views/Home.vue'
-		)
-	}
+	해당 주석은 반복될 필요는 없다. (한 번만 존재하면 됨)	<br> 
+	 // route level code-splitting <br>
+    	 // this generates a separate chunk (about.[hash].js) for this route <br>
+         // which is lazy-loaded when the route is visited.    <br>    
+	component: () =>  <br>
+	    import( <br>
+ 		/* webpackChunkName: "home", webpackPrefetch:true */ '../views/Home.vue' <br>
+		) <br>
+	} <br>
 	]
-	</div>
+	
 
 3. 들어갈 빈도가 많지 않거나 자바스크립트 파일 자체가 작다. - webpackPrefetch: true 가 없는 형태
 	
-	const routes = [
-	{
-	path: '/',
-	name: 'home',
-	 // route level code-splitting
-    	 // this generates a separate chunk (about.[hash].js) for this route
-             // which is lazy-loaded when the route is visited.
-             component: () => 
-	    import(
- 		/* webpackChunkName: "home" */ '../views/Home.vue'
-		)
-	}
+	const routes = [ <br>
+	{ <br>
+	path: '/', <br>
+	name: 'home', <br>
+	 // route level code-splitting <br>
+    	 // this generates a separate chunk (about.[hash].js) for this route <br>
+         // which is lazy-loaded when the route is visited.  <br>
+	   component: () => <br>
+	    import( <br>
+ 		/* webpackChunkName: "home" */ '../views/Home.vue' <br>
+		) <br>
+	} <br>
 	]
 
 만약 하나의 webpackChunkName 으로 묶여있다면, 해당 바인딩을 눌렀을 때 그 그룹이 전부 받아짐. (따로 따로 받아서 로딩할 필요가 없이 함께 받아짐)
