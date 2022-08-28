@@ -67,6 +67,7 @@ File > Preference > User Snippets 메뉴 이동
 
 2. 들어갈 가능성이 높거나, 사이즈가 크다. - webpackPrefetch: true
 	
+	<div>
 	const routes = [
 	{
 	path: '/',
@@ -82,6 +83,7 @@ File > Preference > User Snippets 메뉴 이동
 		)
 	}
 	]
+	</div>
 
 3. 들어갈 빈도가 많지 않거나 자바스크립트 파일 자체가 작다. - webpackPrefetch: true 가 없는 형태
 	
