@@ -20,14 +20,14 @@ Vue study journal
 <br>
 
 #### 1. Vue 장점
-1) html, js, css 를 완벽하게 분리해서 관리할 수 있다.  =  유지, 보수, 추가 개발에 대한 복잡도가 단순해짐
-2) 양방향 데이터 바인딩이 가능하다. (v-model)
+ - html, js, css 를 완벽하게 분리해서 관리할 수 있다.  =  유지, 보수, 추가 개발에 대한 복잡도가 단순해짐
+ - 양방향 데이터 바인딩이 가능하다. (v-model)
 
 <br>
 
 #### 2. vue2 와 vue3 의 버전 차이점
-1)라이브러리가 아직 2에 구현된 종류의 양이 훨씬 많다.
-2) template 태그 안에 최상위 div 블럭으로 묶지 않으면 에러가 뜬다. ( 2 )
+ - 라이브러리가 아직 2에 구현된 종류의 양이 훨씬 많다.
+ - template 태그 안에 최상위 div 블럭으로 묶지 않으면 에러가 뜬다. ( 2 )
 
 <br>
 
@@ -61,9 +61,10 @@ package.json 파일 열기 - "rules": {"space-before-function-paren": "off"}
 <br>
 
 #### 5. User Snippets 등록하기
-File > Preference > User Snippets 메뉴 이동
-검색창에 vue 입력
-아래 코드 입력
+ - File > Preference > User Snippets 메뉴 이동
+ - 검색창에 vue 입력
+ - 아래 코드 입력
+
 "Generate Basic Vue Code": {
 		"prefix": "vue-start",
 		"body": [
