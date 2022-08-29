@@ -32,25 +32,25 @@ Vue study journal
 <br>
 
 #### 3. Vue 각 폴더 설명
-node_modules : 설치된 node 모듈이 위치해 있는 폴더, npm install 명령어를 통해 설치한 모듈이 위치하는 곳
+ - node_modules : 설치된 node 모듈이 위치해 있는 폴더, npm install 명령어를 통해 설치한 모듈이 위치하는 곳
 
-public : index.html 파일이 위치하는 곳 (정적 파일 위치)
+ - public : index.html 파일이 위치하는 곳 (정적 파일 위치)
 
-src : 구현되는 vue 컴포넌트 파일이 위치하는 곳
+ - src : 구현되는 vue 컴포넌트 파일이 위치하는 곳
 
-src > assets : css, image 등 파일이 위치하는 곳
+ - src > assets : css, image 등 파일이 위치하는 곳
 
-src > components : Vue 컴포넌트 중 재사용을 위해서 구현된 컴포넌트가 위치하는 곳
+ - src > components : Vue 컴포넌트 중 재사용을 위해서 구현된 컴포넌트가 위치하는 곳
 
-src > router : 라우팅을 정의하는 파일이 위치하는 곳
+ - src > router : 라우팅을 정의하는 파일이 위치하는 곳
 
-src > store : vuex의 상태 저장소인 store 파일이 위치하는 곳
+ - src > store : vuex의 상태 저장소인 store 파일이 위치하는 곳
 
-src > views : 웹 애플리케이션에서 각 화면, 즉 메뉴에 대응되는 화면에 해당하는 Vue 컴포넌트가 위치하는 곳
+ - src > views : 웹 애플리케이션에서 각 화면, 즉 메뉴에 대응되는 화면에 해당하는 Vue 컴포넌트가 위치하는 곳
 
-App.vue : 최상위 Vue 컴포넌트
+ - App.vue : 최상위 Vue 컴포넌트
 
-package.json : Vue 프로젝트에 대한 정보 및 사용하고 있는 모듈 등에 대한 정보를 관리하고, Vue 프로젝트를 실행할 수 있는 스크립트가 정의된 파일
+ - package.json : Vue 프로젝트에 대한 정보 및 사용하고 있는 모듈 등에 대한 정보를 관리하고, Vue 프로젝트를 실행할 수 있는 스크립트가 정의된 파일
 
 <br>
 
