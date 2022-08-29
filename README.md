@@ -1,5 +1,5 @@
 # Diary
-Vue study journal
+LHW's Vue study journal
 
 ## 2022.08.28
 
@@ -68,10 +68,10 @@ package.json 파일 열기 - "rules": {"space-before-function-paren": "off"}
 	"Generate Basic Vue Code": {
 		"prefix": "vue-start",
 		"body": [
-			"<template>\n\t<div></div>\n</template>\n<script>\nexport default {\n\tcomponents: {},\n\tdata() {\n\t\treturn {\n\t\t\tsampleData: ''\n\t\t}\n\t},\n\tsetup() {},\n\tcreated() {},\n\tmounted() {},\n\tunmounted() {},\n\tmethods: {}\n}\n</script>"
-],
+			"<template>\n\t<div></div>\n</template>\n<script>\nexport default {\n\tcomponents: {},\n\tdata() {\n\t\treturn {\n\t\t\tsampleData: 				''\n\t\t}\n\t},\n\tsetup() {},\n\tcreated() {},\n\tmounted() {},\n\tunmounted() {},\n\tmethods: {}\n}\n</script>"
+			],
 			"description": "Generate Basic Vue Code"
-}
+		}
 
 <br>
 
@@ -131,4 +131,4 @@ package.json 파일 열기 - "rules": {"space-before-function-paren": "off"}
 <br>
 
 #### 7. Vue 규칙
-views 에 사용되는 vue 파일은 이름 끝에 View를 붙인다. ex) AboutView.vue
+ - views 에 사용되는 vue 파일은 이름 끝에 View를 붙인다. ex) AboutView.vue
