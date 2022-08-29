@@ -138,4 +138,4 @@ LHW's Vue study journal
 #### 7. Vue 규칙
  - views 에 사용되는 vue 파일은 이름 끝에 View를 붙인다. ex) AboutView.vue
  - 양방향 데이터 바인딩 : v-model {{텍스트로 인식}}
- - v-model.number {{숫자}}
+ - v-model.number {{숫자로 }}
