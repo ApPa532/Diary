@@ -65,13 +65,13 @@ package.json 파일 열기 - "rules": {"space-before-function-paren": "off"}
  - 검색창에 vue 입력
  - 아래 코드 입력
 
-"Generate Basic Vue Code": {
+	"Generate Basic Vue Code": {
 		"prefix": "vue-start",
 		"body": [
 			"<template>\n\t<div></div>\n</template>\n<script>\nexport default {\n\tcomponents: {},\n\tdata() {\n\t\treturn {\n\t\t\tsampleData: ''\n\t\t}\n\t},\n\tsetup() {},\n\tcreated() {},\n\tmounted() {},\n\tunmounted() {},\n\tmethods: {}\n}\n</script>"
-		],
-		"description": "Generate Basic Vue Code"
-	}
+],
+			"description": "Generate Basic Vue Code"
+}
 
 <br>
 
