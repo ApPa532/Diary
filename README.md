@@ -139,3 +139,4 @@ LHW's Vue study journal
  - views 에 사용되는 vue 파일은 이름 끝에 View를 붙인다. ex) AboutView.vue
  - 양방향 데이터 바인딩 : v-model {{텍스트로 인식}}
  - v-model.number {{숫자로 인식}} 
+ - v-bind: value 같은 속성에 바인드를 단방향으로 할 때 사용. 이용자가 입력하지 못함. 콜론(:)만 앞에 붙여서 생략하여 사용 가능
