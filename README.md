@@ -55,8 +55,8 @@ LHW's Vue study journal
 <br>
 
 #### 4. eslint, prettier 설정법
-.prettierrc 파일 생성 - {"semi": false, "backetSpacing": true, "singleQuote": true"useTabs": false, "trailingComma": "none", "printWidth": 80}
-package.json 파일 열기 - "rules": {"space-before-function-paren": "off"}
+ - .prettierrc 파일 생성 - {"semi": false, "backetSpacing": true, "singleQuote": true"useTabs": false, "trailingComma": "none", "printWidth": 80}
+ - package.json 파일 열기 - "rules": {"space-before-function-paren": "off"}
 
 <br>
 
