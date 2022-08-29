@@ -19,6 +19,8 @@ LHW's Vue study journal
 
 <br>
 
+vetur 확장팩을 설치
+
 #### 1. Vue 장점
  - html, js, css 를 완벽하게 분리해서 관리할 수 있다.  =  유지, 보수, 추가 개발에 대한 복잡도가 단순해짐
  - 양방향 데이터 바인딩이 가능하다. (v-model)
