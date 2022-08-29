@@ -7,7 +7,7 @@ LHW's Vue study journal
 - 앵귤러, 리액트 단점 추가 및 v-model.number 설명 추가
 <br>
 
-### 검색어 :
+### 검색어 Ctrl + F :
 
 #### 1. 장점 
 #### 2. 버전 차이
