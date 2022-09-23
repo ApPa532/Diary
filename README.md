@@ -17,6 +17,7 @@ LHW's Vue study journal
 #### 6. 라우트 연결 방식 세 가지 
 #### 7. Vue 규칙
 #### 8. 다국어 
+#### 9. 각종 에러 
 
 <hr>
 
@@ -57,6 +58,7 @@ LHW's Vue study journal
  - App.vue : 최상위 Vue 컴포넌트
 
  - package.json : Vue 프로젝트에 대한 정보 및 사용하고 있는 모듈 등에 대한 정보를 관리하고, Vue 프로젝트를 실행할 수 있는 스크립트가 정의된 파일
+ 	- 이 파일에서 중요한 점은 "node-sass": "^4.12.0" 에서 sass 버전과 호환되는 node.js 를 통해 install 해야 한다는 점이다. 지키지 않을 시 에러.
 
 <br>
 
@@ -147,3 +149,11 @@ LHW's Vue study journal
  
  #### 8. 다국어 설정
  - 해당 파일의 목표 언어(ko.js) 파일에 export default로 변수 설정 및 해당 값을 설정한 뒤, {{ $t("파일.설정명") }}로 바인딩 작성하여 표시한다.
+ <br>
+ 
+ #### 9. 각종 에러 해결
+ - npm ERR! code ELIFECYCLE : 1. npm cache clean --force
+                              2. rm node_modules
+			      3. npm install
+			     
+ - npm ERR! code ENOENT     : 대부분은 폴더 경로 지정 실수
